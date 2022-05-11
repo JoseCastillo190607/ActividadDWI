@@ -1,0 +1,109 @@
+
+.top-baackground{
+    background-color: black;
+    padding: auto;
+    margin: auto;
+}
+.azul{
+    background-color: rgb(58, 206, 194);
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(36, 104, 145);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+h2{
+    color: rgb(36, 104, 145);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+label[for]{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+nav{
+    text-align: right;
+    margin-right: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12.5px;
+}
+
+footer{
+    background-color: rgb(217, 228, 234);
+    text-align: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+.one{
+    grid-column: 2;
+    grid-row: 1;
+}
+.two{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.wrapper-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+.Contenedor-textos{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .texto-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .texto-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .texto-3 {
+    grid-column: 3;
+    grid-row: 1;
+  
+  }
+  .cafe-donas{
+      width: 250px;
+      height: 150px;
+  }
+
